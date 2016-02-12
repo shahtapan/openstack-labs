@@ -196,4 +196,4 @@ Atest [5] This is a test.
 - **Ingress** [99] Analogous to incoming traffic or data
 - **Egress** [100] Analogous to outgoing traffic or data
 - **Rewrite Resume.** [101] In case of DR check your passport and rewrite your resume without the last DR.
- **Subscribe/Publish** [1] AMPQ uses Subscribe/Publish to initiate the message flow from Consumer to Publisher.
+- **Subscribe/Publish** [1] AMPQ uses Subscribe/Publish to initiate the message flow from Consumer to Publisher.
