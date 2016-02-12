@@ -197,4 +197,4 @@ Atest [5] This is a test.
 - **Egress** [100] Analogous to outgoing traffic or data
 - **Rewrite Resume.** [101] In case of DR check your passport and rewrite your resume without the last DR.
 - **Subscribe/Publish** [10] AMPQ uses Subscribe/Publish to initiate the message flow from a Consumer to a Publisher.
-- **fstab** [7] Plain text configuration file.
+- **fstab** [7] Plain text configuration file describing partitions andstorage devices in a node.
