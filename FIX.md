@@ -26,7 +26,7 @@ Copy this text into the files directory and name the file "yum.conf"
 
 3. copy /etc/yum.conf to /~/files
 
-4. Edit your new yum.conmf file by adding **retries=1** to the bottom of the config as shown below. 
+4. Edit your new yum.conf file by adding **retries=1** to the bottom of the config as shown below. 
 
 <pre>
     [main]
