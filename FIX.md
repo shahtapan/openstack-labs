@@ -28,34 +28,34 @@ Copy this text into the files directory and name the file "yum.conf"
 
 4. Edit your new yum.conf file by adding **retries=1** to the bottom of the config as shown below. 
 
-  <pre>
-  [main]
-  cachedir=/var/cache/yum/$basearch/$releasever
-  keepcache=0
-  debuglevel=2
-  logfile=/var/log/yum.log
-  exactarch=1
-  obsoletes=1
-  gpgcheck=1
-  plugins=1
-  installonly_limit=5
-  bugtracker_url=http://bugs.centos.org/set_project.php?project_id=23&ref=http://bugs.centos.org/bug_report_page.php?category=yum
-  distroverpkg=centos-release
-  retries=1
-  </pre>
+<pre>
+[main]
+cachedir=/var/cache/yum/$basearch/$releasever
+keepcache=0
+debuglevel=2
+logfile=/var/log/yum.log
+exactarch=1
+obsoletes=1
+gpgcheck=1
+plugins=1
+installonly_limit=5
+bugtracker_url=http://bugs.centos.org/set_project.php?project_id=23&ref=http://bugs.centos.org/bug_report_page.php?category=yum
+distroverpkg=centos-release
+retries=1
+</pre>
 
 5. Save the file
 
 6. After you have downloaded sl.yml file, modify it to look like this:
 
 <pre> 
-  - hosts: openstack
-    remote_user: root
-    tasks:
-    - name: Look at me adding my first line of devops code! The next line of code updates yum.conf on all my hosts, this is really cool.
-      copy: src=/home/centos/files/yum.conf dest=/etc/yum.conf owner=root group=root mode=0644
-    - name: Install sl even though I have no idea what sl does... yet.
-      yum: name=sl state=installed
+- hosts: openstack
+  remote_user: root
+  tasks:
+  - name: Look at me adding my first line of devops code! The next line of code updates yum.conf on all my hosts, this is really cool.
+    copy: src=/home/centos/files/yum.conf dest=/etc/yum.conf owner=root group=root mode=0644
+  - name: Install sl even though I have no idea what sl does... yet.
+    yum: name=sl state=installed
 </pre>
 
 Now run the sl.yml playbook and it should go a lot faster.
