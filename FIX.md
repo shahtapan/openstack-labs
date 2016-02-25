@@ -28,21 +28,21 @@ Copy this text into the files directory and name the file "yum.conf"
 
 4. Edit your new yum.conf file by adding **retries=1** to the bottom of the config as shown below. 
 
-<pre>
-[main]
-cachedir=/var/cache/yum/$basearch/$releasever
-keepcache=0
-debuglevel=2
-logfile=/var/log/yum.log
-exactarch=1
-obsoletes=1
-gpgcheck=1
-plugins=1
-installonly_limit=5
-bugtracker_url=http://bugs.centos.org/set_project.php?project_id=23&ref=http://bugs.centos.org/bug_report_page.php?category=yum
-distroverpkg=centos-release
-retries=1
-</pre>
+ <pre>
+ [main]
+ cachedir=/var/cache/yum/$basearch/$releasever
+ keepcache=0
+ debuglevel=2
+ logfile=/var/log/yum.log
+ exactarch=1
+ obsoletes=1
+ gpgcheck=1
+ plugins=1
+ installonly_limit=5
+ bugtracker_url=http://bugs.centos.org/set_project.php?project_id=23&ref=http://bugs.centos.org/bug_report_page.php?category=yum
+ distroverpkg=centos-release
+ retries=1
+ </pre>
 
 5. Save the file
 
