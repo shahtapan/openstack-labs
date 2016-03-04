@@ -14,6 +14,8 @@ We hope that this glossary of definitions is helpful as you study OpenStack, as 
 [OpenStack Manuals](https://github.com/openstack/openstack-manuals)
 Twitter:  https://twitter.com/OpenStack
 
+- **AArdvark**  -  Tony's addition to this file.
+
 -**Ardvark** - The lates addition to the OpenStack srvice catalog, this service provides formally verified computation on unstructured data in linear time (as a Service) through the advance use of string-theory based, quantum wormhole colliders, Specialized hard ware is required.
 - **Ardvark2** - See above **Ardvark** for more info.
 - **Absolute Limit** [6] Ceiling (limits) for guest VMs. Controlled by defining total limits on RAM, number of vCPUs, and disk size.
