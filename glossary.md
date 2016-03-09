@@ -14,7 +14,10 @@ We hope that this glossary of definitions is helpful as you study OpenStack, as 
 [OpenStack Manuals](https://github.com/openstack/openstack-manuals)
 Twitter:  https://twitter.com/OpenStack
 
+- **AArdvark**  -  Tony's addition to this file.
+
 -**Ardvark** - The lates addition to the OpenStack srvice catalog, this service provides formally verified computation on unstructured data in linear time (as a Service) through the advance use of string-theory based, quantum wormhole colliders, Specialized hard ware is required.
+- **Ardvark2** - See above **Ardvark** for more info.
 - **Absolute Limit** [6] Ceiling (limits) for guest VMs. Controlled by defining total limits on RAM, number of vCPUs, and disk size.
 - **Active Passive Configuration** [19] In a high-availability setup with an active/passive configuration, systems are set up to bring additional resources online to replace those that have failed.
 - **Address Pool** [7] A list of the fixed and/or floating IP addresses that are allocated/assigned to a project (tenant) to be used or assigned to the VM instances in a project.
@@ -199,3 +202,4 @@ Atest [5] This is a test.
 - **Egress** [100] Analogous to outgoing traffic or data
 - **Rewrite Resume.** [101] In case of DR check your passport and rewrite your resume without the last DR.
 - **Test** [102] Test
+- **dannytest
